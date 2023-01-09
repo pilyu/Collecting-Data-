@@ -1,4 +1,4 @@
-id,title,ideology,headquarter,audience,region,format,year,month,day,link
+﻿id,title,ideology,headquarter,audience,region,format,year,month,day,link
 1,Ahora,socialist,madrid,adult,national,daily,1931,4,9,https://hemerotecadigital.bne.es/hd/es/viewer?id=181a18db-2586-4289-afb5-af0e9681f492
 2,Ahora,socialist,madrid,adult,national,daily,1932,4,15,https://hemerotecadigital.bne.es/hd/es/viewer?id=ced5043f-0ee6-4bab-b9ac-2f4be94b0e91
 3,Ahora,socialist,madrid,adult,national,daily,1932,9,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=cff641fc-a465-486a-a465-335b0162b22c
@@ -20,17 +20,17 @@ id,title,ideology,headquarter,audience,region,format,year,month,day,link
 19,El Amigo,federalist,madrid,youth,national,biweekly,1919,2,1,https://hemerotecadigital.bne.es/hd/es/viewer?id=911ae3ba-c059-40fe-9ebf-de463d8f5697
 20,El Amigo,federalist,madrid,youth,national,biweekly,1919,7,1,https://hemerotecadigital.bne.es/hd/es/viewer?id=6b2aa781-252e-41dc-b76d-1c647b7abe8f
 21,El Amigo,federalist,madrid,youth,national,biweekly,1919,7,15,https://hemerotecadigital.bne.es/hd/es/viewer?id=2951efcb-4f18-449f-8a03-5bd0c01e49f4
-22,El Cant�brico,socialist,santander,adult,cantabria,daily,1924,2,15,https://hemerotecadigital.bne.es/hd/es/viewer?id=dac64fab-f0ea-4966-96d6-2fee30609ac7
-23,El Cant�brico,socialist,santander,adult,cantabria,daily,1924,6,1,https://hemerotecadigital.bne.es/hd/es/viewer?id=8833fdae-d762-45e9-b161-d3e41a65c236
-24,El Cant�brico,socialist,santander,adult,cantabria,daily,1936,10,6,https://hemerotecadigital.bne.es/hd/es/viewer?id=c3c80d6e-bb3b-42df-bd0d-882bc03199a2
-25,El Cant�brico,socialist,santander,adult,cantabria,daily,1936,3,4,https://hemerotecadigital.bne.es/hd/es/viewer?id=8fa1a137-ba2f-49c9-9784-8291f4eeeb2d
-26,El Cant�brico,socialist,santander,adult,cantabria,daily,1937,1,22,https://hemerotecadigital.bne.es/hd/es/viewer?id=3fd06b37-aa61-419e-813a-db690d285a13
-27,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1929,8,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=ac46aa79-66ad-46d3-b5fa-229dd667786e
-28,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1930,3,14,https://hemerotecadigital.bne.es/hd/es/viewer?id=44426849-3ec4-429e-92cb-527e02bcb2f6
-29,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1930,9,19,https://hemerotecadigital.bne.es/hd/es/viewer?id=62461a27-4615-443c-8349-916527b92a85
-30,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1931,8,14,https://hemerotecadigital.bne.es/hd/es/viewer?id=4ddb68d5-f96b-432b-8626-ee91fc629a5a
-31,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1932,12,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=c88c30a1-159e-4852-9f5c-f2d6f7083ce5
-32,El Cruzado Espa�ol,conservative,madrid,adult,national,weekly,1932,5,13,https://hemerotecadigital.bne.es/hd/es/viewer?id=5b0beb10-22d7-4d15-9b14-84955e3c1090
+22,El Cantábrico,socialist,santander,adult,cantabria,daily,1924,2,15,https://hemerotecadigital.bne.es/hd/es/viewer?id=dac64fab-f0ea-4966-96d6-2fee30609ac7
+23,El Cantábrico,socialist,santander,adult,cantabria,daily,1924,6,1,https://hemerotecadigital.bne.es/hd/es/viewer?id=8833fdae-d762-45e9-b161-d3e41a65c236
+24,El Cantábrico,socialist,santander,adult,cantabria,daily,1936,10,6,https://hemerotecadigital.bne.es/hd/es/viewer?id=c3c80d6e-bb3b-42df-bd0d-882bc03199a2
+25,El Cantábrico,socialist,santander,adult,cantabria,daily,1936,3,4,https://hemerotecadigital.bne.es/hd/es/viewer?id=8fa1a137-ba2f-49c9-9784-8291f4eeeb2d
+26,El Cantábrico,socialist,santander,adult,cantabria,daily,1937,1,22,https://hemerotecadigital.bne.es/hd/es/viewer?id=3fd06b37-aa61-419e-813a-db690d285a13
+27,El Cruzado Español,conservative,madrid,adult,national,weekly,1929,8,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=ac46aa79-66ad-46d3-b5fa-229dd667786e
+28,El Cruzado Español,conservative,madrid,adult,national,weekly,1930,3,14,https://hemerotecadigital.bne.es/hd/es/viewer?id=44426849-3ec4-429e-92cb-527e02bcb2f6
+29,El Cruzado Español,conservative,madrid,adult,national,weekly,1930,9,19,https://hemerotecadigital.bne.es/hd/es/viewer?id=62461a27-4615-443c-8349-916527b92a85
+30,El Cruzado Español,conservative,madrid,adult,national,weekly,1931,8,14,https://hemerotecadigital.bne.es/hd/es/viewer?id=4ddb68d5-f96b-432b-8626-ee91fc629a5a
+31,El Cruzado Español,conservative,madrid,adult,national,weekly,1932,12,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=c88c30a1-159e-4852-9f5c-f2d6f7083ce5
+32,El Cruzado Español,conservative,madrid,adult,national,weekly,1932,5,13,https://hemerotecadigital.bne.es/hd/es/viewer?id=5b0beb10-22d7-4d15-9b14-84955e3c1090
 33,El Imparcial,liberal,madrid,adult,national,daily,1891,4,16,https://hemerotecadigital.bne.es/hd/es/viewer?id=d5e82d64-454c-4e83-a1d6-6518ba2a63b8
 34,El Imparcial,liberal,madrid,adult,national,daily,1895,7,10,https://hemerotecadigital.bne.es/hd/es/viewer?id=bafbbe54-712d-41a2-96d4-bc26dcc17c0a
 35,El Imparcial,liberal,madrid,adult,national,daily,1900,10,24,https://hemerotecadigital.bne.es/hd/es/viewer?id=4608e854-91a2-47f9-97a3-acd58635aab2
