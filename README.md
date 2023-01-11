@@ -1,13 +1,33 @@
 # Collecting-Data-
 
-TBD
+Maximilian
 
-Catalina: Run analysis
+- Split editions / newspapers
 
-Research
+- Write intro section in final notebook
 
-What factors influence style?
+Maria
 
-Run analyses for all potential factors
+- Check that other corpus and count tokens in both
 
-Optionally: Run a network analysis based on the stylo data
+- Write Data Management Plan
+
+Lisa
+
+- Write active learning section in final notebook
+
+Michael
+
+- Write tutorial section in final notebook
+
+
+
+Tools & Methods
+
+Catalina
+
+Maria
+
+Lisa
+
+Maximilian
