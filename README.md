@@ -1,5 +1,7 @@
 # Collecting-Data-
 
+*Collecting Data*
+
 Maximilian
 
 - Split editions / newspapers
@@ -22,12 +24,20 @@ Michael
 
 
 
-Tools & Methods
+*Tools & Methods*
 
 Catalina
 
+- ?
+
 Maria
+
+- ?
 
 Lisa
 
+- ?
+
 Maximilian
+
+- ?
