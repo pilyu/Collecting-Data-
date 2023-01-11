@@ -1,17 +1,17 @@
-Name,Latitude,Longitude,Ideology,City,Year of Foundation
-Ahora,40.416775,-3.703790,Socialist,Madrid,1930
-Andalucía,37.392529,-5.994072,Radical regionalist,Sevilla,1916
-CEDA,40400,-3.703790,Conservative,Madrid,1933
-El Amigo,40.416775,-3500,Democratic federalist,Madrid,1915
-El Cantábrico,43.462774,-3.805000,Socialist,Santander,1895
-El Cruzado Español,40500,-3200,Conservative,Madrid,1929
-El Imparcial,40000,-3.703790,Liberal,Madrid,1867
-El País,40.4225933,-3.7054773,Republican,Madrid,1880
-El Siglo Futuro,40.416775,-4,Carlist,Madrid,1875
-El Sol,40.416775,-4100,Liberal,Madrid,1917
-La Acción,40500,-3600,Conservative,Madrid,1916
-La Actualidad,41500,2100,Democrat,Barcelona,1906
-La Dinastía,41700,2300,Conservative,Barcelona,1883
-Las Noticias,41450,2500,Liberal,Barcelona,1896
-Solidaridad Obrera,41.346176,2700,Anarchist,Barcelona,1907
-Vida socialista,41000,-3.703790,Socialist,Madrid,1910
+﻿newspaper;ideology;hq;audience;region;format;hq latitude;hq longitude;foundedin
+ahora;socialist;madrid;adult;national;daily;40.416.775;-3.703.790;1930
+andalucia;regionalist;sevilla;adult;andalucia;monthly;37.392.529;-5.994.072;1916
+ceda;carlist;madrid;adult;national;biweekly;40400;-3.703.790;1933
+el amigo;;madrid;youth;national;daily;40.416.775;-3500;1915
+el cantabrico;socialist;santander;adult;cantabria;weekly;43.462.774;-3.805.000;1895
+el cruzado espanol;carlist;madrid;adult;national;daily;40500;-3200;1929
+el imparcial;liberal;madrid;adult;national;daily;40000;-3.703.790;1867
+el pais;republican;madrid;adult;national;daily;404.225.933;-37.054.773;1880
+el siglo futuro;carlist;madrid;adult;national;daily;40.416.775;-4;1875
+el sol;liberal;madrid;adult;national;daily;40.416.775;-4100;1917
+la accion;conservative;madrid;adult;national;daily;40500;-3600;1916
+la actualidad;;barcelona;youth;national;weekly;41500;2100;1906
+la dinastia;conservative;barcelona;adult;catalonia;daily;41700;2300;1883
+las noticias;liberal;barcelona;adult;national;daily;41450;2500;1896
+solidaridad obrera;anarchist;barcelona;adult;national;weekly;41.346.176;2700;1907
+vida socialista;socialist;madrid;adult;national;weekly;41000;-3.703.790;1910
