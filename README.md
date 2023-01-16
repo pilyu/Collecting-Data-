@@ -2,42 +2,44 @@
 
 *Collecting Data*
 
-Maximilian
-
-- Split editions / newspapers
-
-- Write intro section in final notebook
-
 Maria
 
-- Check that other corpus and count tokens in both
+- Implement new corpus
 
-- Write Data Management Plan
-
-Lisa
-
-- Write active learning section in final notebook
+- Put text cleaning stuff into tutorial notebook
 
 Michael
 
-- Write tutorial section in final notebook
+- Drop sentiment analysis
+
+- Revise his tutorial section
+
+Maximilian
+
+- Review tutorial section
+
+Lisa
+
+- Beautify active learning exercises
+
+- Put all notebooks together
 
 
 
 *Tools & Methods*
 
+Maria 
+
+- Let Catalina know once the new corpus is implemented
+
 Catalina
 
-- ?
-
-Maria
-
-- ?
-
-Lisa
-
-- ?
+- Rerun stylo
 
 Maximilian
 
-- ?
+- Rerun Gephi
+
+Everyone
+
+- Write the damn report
