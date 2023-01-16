@@ -1,0 +1,97 @@
+HOW DID WE START TO CREATE OUR DATASET?
+
+CLEAN THE TEXTS
+
+After selecting and downloading the raw texts from the Hemeroteca Digital of the National Library of Spain, the next step was to clean the downloaded texts. Text cleaning is a fundamental step for the development of the dataset and subsequent analysis, therefore, we invested a lot of hours to build a consistent and clean dataset as much as we could to answer our research question. We strongly recommend investing time to clean the raw data to be used for any project in a mindful way.
+
+In general, the scanned texts were in acceptable reading condition when we collect them. There are two problems though: 1. There were extra spaces in some words, and 2. Certain characters were not recognized by the OCR. 
+
+SELECTION OF THE CORPUS
+
+Fixing words with extra spaces manually was not an option because of the amount of data, so we decided to create a function that tries to recompose those words, remove the spaces, and put all the tokens in lowercase. To address the OCR issue instead, we decided to work with a Spanish corpus to remove unrecognized text. An important part of the work was therefore to select which corpus we would work with. After evaluating some available corpora in Spanish, we selected two to test in depth:
+
+NLTK "cess_esp"
+
+This corpus was created in 2007 and contains 188,650 words of Spanish which have been syntactically annotated within the framework of the CESS-ECE project (Syntactically & Semantically Annotated Corpora, Spanish, Catalan, Basque). The CESS-ESP was annotated using constituents and functions (with AGTK, University of Pennsylvania). Source: Universal Catalogue (http://universal.elra.info/product_info.php?cPath=42_43&products_id=1509)
+
+SPACY "es_core_news_md"
+
+spaCy is a free, open-source library for advanced Natural Language Processing (NLP) in Python, it is designed specifically for production use and it helps you build applications that process large volumes of text. During processing, spaCy first tokenizes the text, i.e. segments it into words, punctuation, and so on. This is done by applying rules specific to each language, in our case, we select a Spanish pipeline optimized for CPU. Source: Spacy.io (https://spacy.io/models/es)
+
+But how could we quantitatively evaluate which of the corpora best optimizes our future dataset? We decided to select the corpus which would recognize the highest quantity of words in our dataset. For this purpose, we have created a function that, starting from our full dataset, calculates the percentage of tokens recognized by each corpus, and we selected the one with the highest score. This function can be applied to any corpus, which makes it flexible for future use.
+
+The advantages of applying this method are mainly that it is simple, relatively fast, and that it allows us to maximize the amount of useful data we can work with, which gives us the possibility to carry out a more extensive analysis of our dataset. Its disadvantage is that we cannot be sure of the quality of the result, since not necessarily a greater amount of data (in this case, words) is synonymous with a higher data quality. 
+
+Despite the limits, we believe that it is useful for our project to carry out this evaluation and that this method can be improved over time and adjusted to the demands, needs, and objectives of the project that decides to make use of it.
+
+The main differences between NLTK and spaCy are well described in this article: (https://www.activestate.com/blog/natural-language-processing-nltk-vs-spacy/)
+
+
+####
+
+TEST CORPUS
+
+####
+
+
+Finally, after this long explanation, we can put the theory into practice.
+
+%pip install spacy nltk
+!python -m spacy download es_core_news_md
+import nltk
+import spacy
+import os.path
+from glob import glob
+spacy_es = spacy.load("es_core_news_md")
+spacy_es.max_length = 4000000 #Increase the limit of the text that Spacy can work with
+nltk.download("punkt") 
+
+#Run this function to read the file
+def read_file(filename):
+    with open(filename, encoding='utf8') as infile:
+        contents = infile.read()
+    return contents
+
+#Run this function to recompose the words, remove the spaces, and put tokens in lower letters
+def retokenize(tokenized_text):
+    tokenized = []
+    is_broken_word = False
+    temp_word = ""
+    for token in tokenized_text:
+        token_lower = token.lower()
+        if len(token) == 1:
+            if not is_broken_word:
+                is_broken_word = True
+                temp_word = token_lower
+            else:
+                temp_word += token_lower
+        else:
+            if is_broken_word:
+                tokenized.append(temp_word)
+                temp_word = ""
+                is_broken_word = False
+            tokenized.append(token_lower)
+    return tokenized
+
+
+
+Up to this point, all the symbols and unrecognized words that come from the OCR are still included in the dataset, so we are going to remove the ones that are not present in the “es_core_news_md” corpus that we selected earlier. This way, we know that we have only valid words. The trade-off is that we lose some words and all phrase structure, which means that we know that our analysis will be not completely accurate and cannot fully rely on context.
+
+
+#Run the function to get clean texts
+for filename in glob('texts/*.txt'):
+    basename = os.path.basename(filename)
+    new_name = f'texts_clean/{basename}'
+    text = read_file(filename)
+    tokenized_text = nltk.tokenize.word_tokenize(text)
+    tokenized_text = retokenize(tokenized_text)
+    doc = spacy_es(" ".join(tokenized_text))
+    clean_texts = [token.text for token in doc if token.has_vector]
+    with open(new_name, 'w', encoding = 'utf-8') as fp:
+        for item in clean_texts:
+            fp.write(f'{item} ')
+
+
+
+
+
