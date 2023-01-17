@@ -1,17 +1,17 @@
-,newspaper,ideology,hq,audience,region,format,hq latitude,hq longitude,foundedin
-0,ahora,socialist,madrid,adult,national,daily,40.416.775,-3.703.790,1930
-1,andalucia,regionalist,sevilla,adult,andalucia,monthly,37.392.529,-5.994.072,1916
-2,ceda,carlist,madrid,adult,national,biweekly,40400,-3.703.790,1933
-3,el amigo,,madrid,youth,national,daily,40.416.775,-3500,1915
-4,el cantábrico,socialist,santander,adult,cantabria,weekly,43.462.774,-3.805.000,1895
-5,el cruzado español,carlist,madrid,adult,national,daily,40500,-3200,1929
-6,el imparcial,liberal,madrid,adult,national,daily,40000,-3.703.790,1867
-7,el pais,republican,madrid,adult,national,daily,404.225.933,-37.054.773,1880
-8,el siglo futuro,carlist,madrid,adult,national,daily,40.416.775,-4,1875
-9,el sol,liberal,madrid,adult,national,daily,40.416.775,-4100,1917
-10,la accion,conservative,madrid,adult,national,daily,40500,-3600,1916
-11,la actualidad,,barcelona,youth,national,weekly,41500,2100,1906
-12,la dinastia,conservative,barcelona,adult,catalonia,daily,41700,2300,1883
-13,las noticias,liberal,barcelona,adult,national,daily,41450,2500,1896
-14,solidaridad obrera,anarchist,barcelona,adult,national,weekly,41.346.176,2700,1907
-15,vida socialista,socialist,madrid,adult,national,weekly,41000,-3.703.790,1910
+newspaper,ideology,hq,audience,region,format,hq latitude,hq longitude,foundedin
+ahora,socialist,madrid,adult,national,daily,40.416.775,-3.703.790,1930
+andalucia,regionalist,sevilla,adult,andalucia,monthly,37.392.529,-5.994.072,1916
+ceda,carlist,madrid,adult,national,biweekly,40400,-3.703.790,1933
+el amigo,,madrid,youth,national,daily,40.416.775,-3500,1915
+el cantábrico,socialist,santander,adult,cantabria,weekly,43.462.774,-3.805.000,1895
+el cruzado español,carlist,madrid,adult,national,daily,40500,-3200,1929
+el imparcial,liberal,madrid,adult,national,daily,40000,-3.703.790,1867
+el pais,republican,madrid,adult,national,daily,404.225.933,-37.054.773,1880
+el siglo futuro,carlist,madrid,adult,national,daily,40.416.775,-4,1875
+el sol,liberal,madrid,adult,national,daily,40.416.775,-4100,1917
+la accion,conservative,madrid,adult,national,daily,40500,-3600,1916
+la actualidad,,barcelona,youth,national,weekly,41500,2100,1906
+la dinastia,conservative,barcelona,adult,catalonia,daily,41700,2300,1883
+las noticias,liberal,barcelona,adult,national,daily,41450,2500,1896
+solidaridad obrera,anarchist,barcelona,adult,national,weekly,41.346.176,2700,1907
+vida socialista,socialist,madrid,adult,national,weekly,41000,-3.703.790,1910
