@@ -6,4 +6,12 @@
 
 *Tools & Methods*
 
-- Maria is creating a website, everyone else is giving input
+Everyone
+
+- Send photos, student numbers, short descriptions of own activity to Maria
+
+- Collaborate on conclusion
+
+Catalina, Maximilian
+
+- Pick most relevant visualisations, send with short descriptions to Maria
