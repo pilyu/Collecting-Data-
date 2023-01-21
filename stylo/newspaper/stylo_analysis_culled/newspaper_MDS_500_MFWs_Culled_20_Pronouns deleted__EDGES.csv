@@ -1,0 +1,497 @@
+Source,Target,Weight,Type
+ahora_1,ahora_4,3,undirected
+ahora_1,ahora_5,1,undirected
+ahora_1,el sol_63,2,undirected
+ahora_1,la actualidad_76,1,undirected
+ahora_2,ahora_3,3,undirected
+ahora_2,ahora_4,1,undirected
+ahora_2,ahora_5,2,undirected
+ahora_3,ahora_2,3,undirected
+ahora_3,ahora_4,1,undirected
+ahora_3,ahora_5,5,undirected
+ahora_3,el cantábrico_25,2,undirected
+ahora_3,el imparcial_39,2,undirected
+ahora_3,el siglo futuro_55,1,undirected
+ahora_3,la dinastia_79,1,undirected
+ahora_3,la dinastia_83,2,undirected
+ahora_4,ahora_1,3,undirected
+ahora_4,ahora_2,1,undirected
+ahora_4,ahora_3,1,undirected
+ahora_4,ahora_5,6,undirected
+ahora_4,el imparcial_33,1,undirected
+ahora_4,el imparcial_39,3,undirected
+ahora_4,el pais_45,1,undirected
+ahora_4,el siglo futuro_51,1,undirected
+ahora_4,el siglo futuro_55,4,undirected
+ahora_4,el sol_63,4,undirected
+ahora_4,la actualidad_75,1,undirected
+ahora_4,la actualidad_76,2,undirected
+ahora_4,la dinastia_80,1,undirected
+ahora_5,ahora_1,1,undirected
+ahora_5,ahora_2,2,undirected
+ahora_5,ahora_3,5,undirected
+ahora_5,ahora_4,6,undirected
+ahora_5,ahora_6,1,undirected
+ahora_5,el siglo futuro_55,2,undirected
+ahora_5,el sol_64,1,undirected
+ahora_6,ahora_5,1,undirected
+ahora_6,solidaridad obrera_91,3,undirected
+ahora_6,solidaridad obrera_92,2,undirected
+ahora_7,el cantábrico_24,1,undirected
+ahora_7,solidaridad obrera_91,2,undirected
+ahora_7,solidaridad obrera_92,3,undirected
+andalucia_10,andalucia_11,2,undirected
+andalucia_10,andalucia_12,6,undirected
+andalucia_10,andalucia_8,3,undirected
+andalucia_10,andalucia_9,4,undirected
+andalucia_11,andalucia_10,2,undirected
+andalucia_11,andalucia_12,1,undirected
+andalucia_11,andalucia_9,3,undirected
+andalucia_12,andalucia_10,6,undirected
+andalucia_12,andalucia_11,1,undirected
+andalucia_12,andalucia_9,5,undirected
+andalucia_12,ceda_16,3,undirected
+andalucia_12,vida socialista_100,1,undirected
+andalucia_8,andalucia_10,3,undirected
+andalucia_8,andalucia_9,4,undirected
+andalucia_8,el amigo_17,1,undirected
+andalucia_9,andalucia_10,4,undirected
+andalucia_9,andalucia_11,3,undirected
+andalucia_9,andalucia_12,5,undirected
+andalucia_9,andalucia_8,4,undirected
+ceda_13,ceda_14,6,undirected
+ceda_13,ceda_15,3,undirected
+ceda_13,el sol_64,2,undirected
+ceda_14,ceda_13,6,undirected
+ceda_14,ceda_15,5,undirected
+ceda_14,el sol_63,1,undirected
+ceda_15,ceda_13,3,undirected
+ceda_15,ceda_14,5,undirected
+ceda_15,ceda_16,1,undirected
+ceda_15,el sol_62,1,undirected
+ceda_16,andalucia_12,3,undirected
+ceda_16,ceda_15,1,undirected
+ceda_16,solidaridad obrera_92,2,undirected
+el amigo_17,andalucia_8,1,undirected
+el amigo_17,el amigo_18,6,undirected
+el amigo_17,el amigo_19,4,undirected
+el amigo_17,el amigo_20,1,undirected
+el amigo_17,el amigo_21,2,undirected
+el amigo_17,la actualidad_71,2,undirected
+el amigo_17,la actualidad_72,2,undirected
+el amigo_17,la actualidad_76,1,undirected
+el amigo_18,el amigo_17,6,undirected
+el amigo_18,el amigo_19,3,undirected
+el amigo_18,el amigo_21,1,undirected
+el amigo_18,la actualidad_71,3,undirected
+el amigo_18,la actualidad_76,1,undirected
+el amigo_19,el amigo_17,4,undirected
+el amigo_19,el amigo_18,3,undirected
+el amigo_19,el amigo_20,3,undirected
+el amigo_19,el amigo_21,6,undirected
+el amigo_20,el amigo_17,1,undirected
+el amigo_20,el amigo_19,3,undirected
+el amigo_20,el amigo_21,2,undirected
+el amigo_21,el amigo_17,2,undirected
+el amigo_21,el amigo_18,1,undirected
+el amigo_21,el amigo_19,6,undirected
+el amigo_21,el amigo_20,2,undirected
+el cantábrico_22,el cantábrico_23,6,undirected
+el cantábrico_22,el sol_58,2,undirected
+el cantábrico_22,la accion_66,1,undirected
+el cantábrico_23,el cantábrico_22,6,undirected
+el cantábrico_23,el siglo futuro_54,2,undirected
+el cantábrico_23,el sol_58,1,undirected
+el cantábrico_24,ahora_7,1,undirected
+el cantábrico_24,el cantábrico_25,6,undirected
+el cantábrico_24,el cantábrico_26,4,undirected
+el cantábrico_24,solidaridad obrera_92,4,undirected
+el cantábrico_25,ahora_3,2,undirected
+el cantábrico_25,el cantábrico_24,6,undirected
+el cantábrico_25,el imparcial_39,1,undirected
+el cantábrico_26,el cantábrico_24,4,undirected
+el cantábrico_26,el sol_56,2,undirected
+el cantábrico_26,solidaridad obrera_92,1,undirected
+el cruzado español_27,el cruzado español_29,1,undirected
+el cruzado español_27,el cruzado español_31,2,undirected
+el cruzado español_27,el cruzado español_32,5,undirected
+el cruzado español_28,el cruzado español_30,1,undirected
+el cruzado español_28,el cruzado español_31,2,undirected
+el cruzado español_28,el cruzado español_32,3,undirected
+el cruzado español_29,el cruzado español_27,1,undirected
+el cruzado español_29,el cruzado español_30,5,undirected
+el cruzado español_29,el cruzado español_31,3,undirected
+el cruzado español_29,el cruzado español_32,2,undirected
+el cruzado español_30,el cruzado español_28,1,undirected
+el cruzado español_30,el cruzado español_29,5,undirected
+el cruzado español_30,el cruzado español_31,6,undirected
+el cruzado español_30,el sol_56,1,undirected
+el cruzado español_31,el cruzado español_27,2,undirected
+el cruzado español_31,el cruzado español_28,2,undirected
+el cruzado español_31,el cruzado español_29,3,undirected
+el cruzado español_31,el cruzado español_30,6,undirected
+el cruzado español_31,el cruzado español_32,5,undirected
+el cruzado español_32,el cruzado español_27,5,undirected
+el cruzado español_32,el cruzado español_28,3,undirected
+el cruzado español_32,el cruzado español_29,2,undirected
+el cruzado español_32,el cruzado español_31,5,undirected
+el imparcial_33,ahora_4,1,undirected
+el imparcial_33,el imparcial_37,2,undirected
+el imparcial_33,el imparcial_39,3,undirected
+el imparcial_34,el imparcial_35,2,undirected
+el imparcial_34,el imparcial_36,3,undirected
+el imparcial_34,el pais_40,2,undirected
+el imparcial_34,el pais_41,1,undirected
+el imparcial_34,el pais_42,1,undirected
+el imparcial_34,el pais_43,3,undirected
+el imparcial_34,el sol_58,2,undirected
+el imparcial_34,el sol_64,1,undirected
+el imparcial_34,la dinastia_84,3,undirected
+el imparcial_34,las noticias_87,3,undirected
+el imparcial_35,el imparcial_34,2,undirected
+el imparcial_35,el imparcial_36,3,undirected
+el imparcial_35,el imparcial_37,1,undirected
+el imparcial_36,el imparcial_34,3,undirected
+el imparcial_36,el imparcial_35,3,undirected
+el imparcial_36,el imparcial_37,5,undirected
+el imparcial_36,el pais_40,3,undirected
+el imparcial_36,el pais_43,1,undirected
+el imparcial_36,el siglo futuro_49,2,undirected
+el imparcial_36,el siglo futuro_51,3,undirected
+el imparcial_36,el siglo futuro_52,3,undirected
+el imparcial_36,el sol_58,1,undirected
+el imparcial_36,el sol_61,3,undirected
+el imparcial_36,la dinastia_77,2,undirected
+el imparcial_36,la dinastia_78,1,undirected
+el imparcial_36,la dinastia_79,2,undirected
+el imparcial_36,las noticias_87,1,undirected
+el imparcial_37,el imparcial_33,2,undirected
+el imparcial_37,el imparcial_35,1,undirected
+el imparcial_37,el imparcial_36,5,undirected
+el imparcial_37,el imparcial_39,1,undirected
+el imparcial_37,el sol_58,2,undirected
+el imparcial_38,el pais_48,1,undirected
+el imparcial_38,el siglo futuro_54,1,undirected
+el imparcial_38,el sol_58,3,undirected
+el imparcial_38,la accion_68,2,undirected
+el imparcial_39,ahora_3,2,undirected
+el imparcial_39,ahora_4,3,undirected
+el imparcial_39,el cantábrico_25,1,undirected
+el imparcial_39,el imparcial_33,3,undirected
+el imparcial_39,el imparcial_37,1,undirected
+el imparcial_39,el pais_45,2,undirected
+el imparcial_39,el pais_46,3,undirected
+el imparcial_39,el sol_60,2,undirected
+el imparcial_39,el sol_61,1,undirected
+el imparcial_39,el sol_62,2,undirected
+el imparcial_39,la accion_66,2,undirected
+el imparcial_39,la accion_67,2,undirected
+el imparcial_39,la accion_69,3,undirected
+el imparcial_39,la dinastia_86,3,undirected
+el pais_40,el imparcial_34,2,undirected
+el pais_40,el imparcial_36,3,undirected
+el pais_40,el pais_41,2,undirected
+el pais_40,la accion_68,1,undirected
+el pais_41,el imparcial_34,1,undirected
+el pais_41,el pais_40,2,undirected
+el pais_41,el sol_57,3,undirected
+el pais_42,el imparcial_34,1,undirected
+el pais_42,el sol_63,3,undirected
+el pais_42,el sol_64,2,undirected
+el pais_43,el imparcial_34,3,undirected
+el pais_43,el imparcial_36,1,undirected
+el pais_43,el sol_58,2,undirected
+el pais_44,el siglo futuro_54,1,undirected
+el pais_44,el sol_56,2,undirected
+el pais_44,el sol_60,3,undirected
+el pais_45,ahora_4,1,undirected
+el pais_45,el imparcial_39,2,undirected
+el pais_45,el sol_62,3,undirected
+el pais_46,el imparcial_39,3,undirected
+el pais_46,el sol_60,2,undirected
+el pais_46,el sol_61,1,undirected
+el pais_47,el sol_56,2,undirected
+el pais_47,el sol_57,3,undirected
+el pais_47,el sol_58,1,undirected
+el pais_48,el imparcial_38,1,undirected
+el pais_48,el sol_57,2,undirected
+el pais_48,el sol_59,3,undirected
+el pais_48,solidaridad obrera_90,2,undirected
+el siglo futuro_49,el imparcial_36,2,undirected
+el siglo futuro_49,el siglo futuro_55,3,undirected
+el siglo futuro_49,el sol_63,1,undirected
+el siglo futuro_50,el sol_56,1,undirected
+el siglo futuro_50,el sol_61,2,undirected
+el siglo futuro_50,el sol_62,3,undirected
+el siglo futuro_51,ahora_4,1,undirected
+el siglo futuro_51,el imparcial_36,3,undirected
+el siglo futuro_51,el siglo futuro_52,2,undirected
+el siglo futuro_51,el sol_64,2,undirected
+el siglo futuro_52,el imparcial_36,3,undirected
+el siglo futuro_52,el siglo futuro_51,2,undirected
+el siglo futuro_52,el sol_63,1,undirected
+el siglo futuro_53,el sol_56,1,undirected
+el siglo futuro_53,el sol_57,2,undirected
+el siglo futuro_53,el sol_58,3,undirected
+el siglo futuro_54,el cantábrico_23,2,undirected
+el siglo futuro_54,el imparcial_38,1,undirected
+el siglo futuro_54,el pais_44,1,undirected
+el siglo futuro_54,el sol_56,1,undirected
+el siglo futuro_54,el sol_58,2,undirected
+el siglo futuro_54,el sol_60,3,undirected
+el siglo futuro_55,ahora_3,1,undirected
+el siglo futuro_55,ahora_4,4,undirected
+el siglo futuro_55,ahora_5,2,undirected
+el siglo futuro_55,el siglo futuro_49,3,undirected
+el siglo futuro_55,la accion_66,1,undirected
+el siglo futuro_55,solidaridad obrera_92,1,undirected
+el sol_56,el cantábrico_26,2,undirected
+el sol_56,el cruzado español_30,1,undirected
+el sol_56,el pais_44,2,undirected
+el sol_56,el pais_47,2,undirected
+el sol_56,el siglo futuro_50,1,undirected
+el sol_56,el siglo futuro_53,1,undirected
+el sol_56,el siglo futuro_54,1,undirected
+el sol_56,el sol_57,2,undirected
+el sol_56,el sol_58,2,undirected
+el sol_56,el sol_59,1,undirected
+el sol_56,el sol_61,1,undirected
+el sol_56,el sol_62,3,undirected
+el sol_57,el pais_41,3,undirected
+el sol_57,el pais_47,3,undirected
+el sol_57,el pais_48,2,undirected
+el sol_57,el siglo futuro_53,2,undirected
+el sol_57,el sol_56,2,undirected
+el sol_57,el sol_58,4,undirected
+el sol_57,el sol_59,2,undirected
+el sol_57,el sol_60,1,undirected
+el sol_57,el sol_65,2,undirected
+el sol_57,la dinastia_83,1,undirected
+el sol_57,la dinastia_84,1,undirected
+el sol_57,las noticias_88,1,undirected
+el sol_57,solidaridad obrera_95,2,undirected
+el sol_58,el cantábrico_22,2,undirected
+el sol_58,el cantábrico_23,1,undirected
+el sol_58,el imparcial_34,2,undirected
+el sol_58,el imparcial_36,1,undirected
+el sol_58,el imparcial_37,2,undirected
+el sol_58,el imparcial_38,3,undirected
+el sol_58,el pais_43,2,undirected
+el sol_58,el pais_47,1,undirected
+el sol_58,el siglo futuro_53,3,undirected
+el sol_58,el siglo futuro_54,2,undirected
+el sol_58,el sol_56,2,undirected
+el sol_58,el sol_57,4,undirected
+el sol_58,el sol_59,3,undirected
+el sol_58,el sol_61,4,undirected
+el sol_58,el sol_64,2,undirected
+el sol_58,el sol_65,3,undirected
+el sol_58,la accion_70,2,undirected
+el sol_58,la dinastia_84,2,undirected
+el sol_58,la dinastia_86,2,undirected
+el sol_58,las noticias_87,2,undirected
+el sol_58,solidaridad obrera_95,1,undirected
+el sol_59,el pais_48,3,undirected
+el sol_59,el sol_56,1,undirected
+el sol_59,el sol_57,2,undirected
+el sol_59,el sol_58,3,undirected
+el sol_59,las noticias_88,3,undirected
+el sol_59,las noticias_89,2,undirected
+el sol_59,solidaridad obrera_90,1,undirected
+el sol_60,el imparcial_39,2,undirected
+el sol_60,el pais_44,3,undirected
+el sol_60,el pais_46,2,undirected
+el sol_60,el siglo futuro_54,3,undirected
+el sol_60,el sol_57,1,undirected
+el sol_60,el sol_61,3,undirected
+el sol_60,el sol_62,1,undirected
+el sol_61,el imparcial_36,3,undirected
+el sol_61,el imparcial_39,1,undirected
+el sol_61,el pais_46,1,undirected
+el sol_61,el siglo futuro_50,2,undirected
+el sol_61,el sol_56,1,undirected
+el sol_61,el sol_58,4,undirected
+el sol_61,el sol_60,3,undirected
+el sol_61,el sol_62,6,undirected
+el sol_61,el sol_64,4,undirected
+el sol_61,la accion_67,1,undirected
+el sol_61,la accion_70,1,undirected
+el sol_61,la dinastia_86,1,undirected
+el sol_62,ceda_15,1,undirected
+el sol_62,el imparcial_39,2,undirected
+el sol_62,el pais_45,3,undirected
+el sol_62,el siglo futuro_50,3,undirected
+el sol_62,el sol_56,3,undirected
+el sol_62,el sol_60,1,undirected
+el sol_62,el sol_61,6,undirected
+el sol_62,el sol_63,3,undirected
+el sol_62,el sol_64,2,undirected
+el sol_62,la accion_70,3,undirected
+el sol_62,solidaridad obrera_91,2,undirected
+el sol_62,solidaridad obrera_93,1,undirected
+el sol_63,ahora_1,2,undirected
+el sol_63,ahora_4,4,undirected
+el sol_63,ceda_14,1,undirected
+el sol_63,el pais_42,3,undirected
+el sol_63,el siglo futuro_49,1,undirected
+el sol_63,el siglo futuro_52,1,undirected
+el sol_63,el sol_62,3,undirected
+el sol_63,el sol_64,6,undirected
+el sol_63,solidaridad obrera_91,1,undirected
+el sol_64,ahora_5,1,undirected
+el sol_64,ceda_13,2,undirected
+el sol_64,el imparcial_34,1,undirected
+el sol_64,el pais_42,2,undirected
+el sol_64,el siglo futuro_51,2,undirected
+el sol_64,el sol_58,2,undirected
+el sol_64,el sol_61,4,undirected
+el sol_64,el sol_62,2,undirected
+el sol_64,el sol_63,6,undirected
+el sol_64,el sol_65,1,undirected
+el sol_65,el sol_57,2,undirected
+el sol_65,el sol_58,3,undirected
+el sol_65,el sol_64,1,undirected
+la accion_66,el cantábrico_22,1,undirected
+la accion_66,el imparcial_39,2,undirected
+la accion_66,el siglo futuro_55,1,undirected
+la accion_66,la accion_67,6,undirected
+la accion_66,la dinastia_85,2,undirected
+la accion_67,el imparcial_39,2,undirected
+la accion_67,el sol_61,1,undirected
+la accion_67,la accion_66,6,undirected
+la accion_67,la accion_68,3,undirected
+la accion_67,la dinastia_85,1,undirected
+la accion_68,el imparcial_38,2,undirected
+la accion_68,el pais_40,1,undirected
+la accion_68,la accion_67,3,undirected
+la accion_68,la accion_69,2,undirected
+la accion_68,la accion_70,2,undirected
+la accion_69,el imparcial_39,3,undirected
+la accion_69,la accion_68,2,undirected
+la accion_69,la accion_70,2,undirected
+la accion_70,el sol_58,2,undirected
+la accion_70,el sol_61,1,undirected
+la accion_70,el sol_62,3,undirected
+la accion_70,la accion_68,2,undirected
+la accion_70,la accion_69,2,undirected
+la actualidad_71,el amigo_17,2,undirected
+la actualidad_71,el amigo_18,3,undirected
+la actualidad_71,la actualidad_76,1,undirected
+la actualidad_72,el amigo_17,2,undirected
+la actualidad_72,la actualidad_75,1,undirected
+la actualidad_72,la actualidad_76,3,undirected
+la actualidad_73,la actualidad_74,2,undirected
+la actualidad_73,la actualidad_75,5,undirected
+la actualidad_73,la actualidad_76,2,undirected
+la actualidad_74,la actualidad_73,2,undirected
+la actualidad_74,la actualidad_75,3,undirected
+la actualidad_74,la actualidad_76,2,undirected
+la actualidad_75,ahora_4,1,undirected
+la actualidad_75,la actualidad_72,1,undirected
+la actualidad_75,la actualidad_73,5,undirected
+la actualidad_75,la actualidad_74,3,undirected
+la actualidad_75,la actualidad_76,6,undirected
+la actualidad_76,ahora_1,1,undirected
+la actualidad_76,ahora_4,2,undirected
+la actualidad_76,el amigo_17,1,undirected
+la actualidad_76,el amigo_18,1,undirected
+la actualidad_76,la actualidad_71,1,undirected
+la actualidad_76,la actualidad_72,3,undirected
+la actualidad_76,la actualidad_73,2,undirected
+la actualidad_76,la actualidad_74,2,undirected
+la actualidad_76,la actualidad_75,6,undirected
+la dinastia_77,el imparcial_36,2,undirected
+la dinastia_77,la dinastia_78,6,undirected
+la dinastia_77,la dinastia_80,1,undirected
+la dinastia_77,la dinastia_81,1,undirected
+la dinastia_77,la dinastia_82,1,undirected
+la dinastia_77,la dinastia_83,3,undirected
+la dinastia_78,el imparcial_36,1,undirected
+la dinastia_78,la dinastia_77,6,undirected
+la dinastia_78,la dinastia_82,4,undirected
+la dinastia_79,ahora_3,1,undirected
+la dinastia_79,el imparcial_36,2,undirected
+la dinastia_79,la dinastia_80,5,undirected
+la dinastia_80,ahora_4,1,undirected
+la dinastia_80,la dinastia_77,1,undirected
+la dinastia_80,la dinastia_79,5,undirected
+la dinastia_80,la dinastia_81,3,undirected
+la dinastia_80,la dinastia_82,6,undirected
+la dinastia_81,la dinastia_77,1,undirected
+la dinastia_81,la dinastia_80,3,undirected
+la dinastia_81,la dinastia_82,2,undirected
+la dinastia_82,la dinastia_77,1,undirected
+la dinastia_82,la dinastia_78,4,undirected
+la dinastia_82,la dinastia_80,6,undirected
+la dinastia_82,la dinastia_81,2,undirected
+la dinastia_83,ahora_3,2,undirected
+la dinastia_83,el sol_57,1,undirected
+la dinastia_83,la dinastia_77,3,undirected
+la dinastia_84,el imparcial_34,3,undirected
+la dinastia_84,el sol_57,1,undirected
+la dinastia_84,el sol_58,2,undirected
+la dinastia_85,la accion_66,2,undirected
+la dinastia_85,la accion_67,1,undirected
+la dinastia_85,la dinastia_86,3,undirected
+la dinastia_86,el imparcial_39,3,undirected
+la dinastia_86,el sol_58,2,undirected
+la dinastia_86,el sol_61,1,undirected
+la dinastia_86,la dinastia_85,3,undirected
+las noticias_87,el imparcial_34,3,undirected
+las noticias_87,el imparcial_36,1,undirected
+las noticias_87,el sol_58,2,undirected
+las noticias_87,las noticias_88,2,undirected
+las noticias_88,el sol_57,1,undirected
+las noticias_88,el sol_59,3,undirected
+las noticias_88,las noticias_87,2,undirected
+las noticias_88,las noticias_89,1,undirected
+las noticias_89,el sol_59,2,undirected
+las noticias_89,las noticias_88,1,undirected
+las noticias_89,solidaridad obrera_90,6,undirected
+solidaridad obrera_90,el pais_48,2,undirected
+solidaridad obrera_90,el sol_59,1,undirected
+solidaridad obrera_90,las noticias_89,6,undirected
+solidaridad obrera_91,ahora_6,3,undirected
+solidaridad obrera_91,ahora_7,2,undirected
+solidaridad obrera_91,el sol_62,2,undirected
+solidaridad obrera_91,el sol_63,1,undirected
+solidaridad obrera_91,solidaridad obrera_92,6,undirected
+solidaridad obrera_91,solidaridad obrera_93,2,undirected
+solidaridad obrera_91,solidaridad obrera_94,2,undirected
+solidaridad obrera_91,solidaridad obrera_95,3,undirected
+solidaridad obrera_92,ahora_6,2,undirected
+solidaridad obrera_92,ahora_7,3,undirected
+solidaridad obrera_92,ceda_16,2,undirected
+solidaridad obrera_92,el cantábrico_24,4,undirected
+solidaridad obrera_92,el cantábrico_26,1,undirected
+solidaridad obrera_92,el siglo futuro_55,1,undirected
+solidaridad obrera_92,solidaridad obrera_91,6,undirected
+solidaridad obrera_92,solidaridad obrera_94,1,undirected
+solidaridad obrera_93,el sol_62,1,undirected
+solidaridad obrera_93,solidaridad obrera_91,2,undirected
+solidaridad obrera_93,solidaridad obrera_94,6,undirected
+solidaridad obrera_94,solidaridad obrera_91,2,undirected
+solidaridad obrera_94,solidaridad obrera_92,1,undirected
+solidaridad obrera_94,solidaridad obrera_93,6,undirected
+solidaridad obrera_95,el sol_57,2,undirected
+solidaridad obrera_95,el sol_58,1,undirected
+solidaridad obrera_95,solidaridad obrera_91,3,undirected
+vida socialista_100,andalucia_12,1,undirected
+vida socialista_100,vida socialista_96,2,undirected
+vida socialista_100,vida socialista_97,6,undirected
+vida socialista_100,vida socialista_98,5,undirected
+vida socialista_100,vida socialista_99,4,undirected
+vida socialista_96,vida socialista_100,2,undirected
+vida socialista_96,vida socialista_97,5,undirected
+vida socialista_96,vida socialista_99,1,undirected
+vida socialista_97,vida socialista_100,6,undirected
+vida socialista_97,vida socialista_96,5,undirected
+vida socialista_97,vida socialista_98,2,undirected
+vida socialista_97,vida socialista_99,1,undirected
+vida socialista_98,vida socialista_100,5,undirected
+vida socialista_98,vida socialista_97,2,undirected
+vida socialista_98,vida socialista_99,4,undirected
+vida socialista_99,vida socialista_100,4,undirected
+vida socialista_99,vida socialista_96,1,undirected
+vida socialista_99,vida socialista_97,1,undirected
+vida socialista_99,vida socialista_98,4,undirected
