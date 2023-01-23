@@ -1,17 +1,3 @@
-# Collecting-Data-
+# Spanish newspaper editions
 
-*Collecting Data*
-
-- Revision and make everything nice
-
-*Tools & Methods*
-
-Everyone
-
-- Send photos, student numbers, short descriptions of own activity to Maria
-
-- Collaborate on conclusion
-
-Catalina, Maximilian
-
-- Pick most relevant visualisations, send with short descriptions to Maria
+This is the combined repository for the Collecting Data group 6 and the Tools and Methods group 1 final projects.
